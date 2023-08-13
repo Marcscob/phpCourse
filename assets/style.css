@@ -120,10 +120,10 @@ body {
   }
 
 .modulo.red > h3 {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.533)
 }
 .modulo.red {
-  border: 2px solid red;
+  border: 2px solid rgba(255, 0, 0, 0.533)
 }
 
 .modulo.orange > h3 {
@@ -141,10 +141,10 @@ body {
 }
 
 .modulo.green      > h3 {
-  background-color: green;
+  background-color: rgb(1, 116, 1)
 }
 .modulo.green      {
-  border: 2px solid green;
+  border: 2px solid rgb(1, 116, 1);
 }
 
 .modulo.dark-blue > h3 {
