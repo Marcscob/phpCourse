@@ -27,90 +27,16 @@
                     <h3>Módulo 01</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=teste&&file=teste">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                       
                     </ul>
 
                 </div>
-                <div class="modulo red">
-                    <h3>Módulo - 02</h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo orange">
-                    <h3>Módulo - 03 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo purple">
-                    <h3>Módulo - 04 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo green">
-                    <h3>Módulo - 05 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo dark-blue">
-                    <h3>Módulo - 06 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo dark-green">
-                    <h3>Módulo - 07 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo dark-red">
-                    <h3>Módulo - 08 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-                <div class="modulo dark-purple">
-                    <h3>Módulo - 09 </h3>
-                    <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
-                    </ul>
-
-                </div>
-
-
+                
             </nav>
         </div>
     </main>
 
-    <fotter class="footer"> COD3R & ALUNOS 2023 </fotter>
+    <fotter class="footer"> COD3R & ALUNOS <?= date('y');?> </fotter>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
     </header>
 
     <nav class="nav">
-        <a href="" class="btnVerde">Sem formatação</a>
+        <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php"?> class="btnVerde">Sem formatação</a>
         <a href="index.php" class="btnVermelho">Voltar</a>
 
     </nav>
